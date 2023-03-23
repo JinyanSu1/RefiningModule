@@ -24,4 +24,4 @@ The datasets can be downloaded via [this](https://drive.google.com/drive/folders
 Download the WRENCH benchmark as instructed in [WRENCH](https://github.com/JieyuZ2/wrench) and set up the WRENCH environment.
 
 
-run bash file using `bash run.sh'
+run bash file using `bash run.sh`
