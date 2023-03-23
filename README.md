@@ -6,15 +6,13 @@ conda create --name t0_env python=3.8
 conda activate t0_env
 pip install -r requirements.txt
 ```
-
+The datasets can be downloaded via [this](https://drive.google.com/drive/folders/1NbK7gq3pPn6HKy6CTF7pI3ivrHUT5kfR?usp=sharing).
 ## Dataset Source
-| Name | Task | # class | # LF | # train | # validation | # test | data source | LF source |
-|:--------|:---------|:------|:------|:------|:-------------|:-------|:------|:------|
-| Spouse | relation classification | 2 | 9 | 22254 | 2801         | 2701   | [link](http://ceur-ws.org/Vol-1568/paper8.pdf) | [link](https://arxiv.org/abs/1711.10160) |
-| Youtube | spam clasification | 2 | 10 | 1586 | 120          | 250    | [link](https://archive.ics.uci.edu/ml/datasets/YouTube+Spam+Collection) | [link](https://github.com/snorkel-team/snorkel-tutorials/tree/master/spam) |
-| SMS | spam clasification | 2 | 73 | 4571 | 500          | 500    | [link](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection) | [link](https://openreview.net/forum?id=SkeuexBtDr) |
-
-
+| Name | Task | # class | # Prompted LFs | # train | # validation | # test | source
+|:--------|:---------|:------|:------|:------|:-------|:-------|:------|:------------------------|
+| Spouse | relation classification | 2 | 9 | 22254 | 2811         | 2701   | [Snorkel tutorial](https://github.com/snorkel-team/snorkel-tutorials/tree/master/spouse) | 
+| Youtube | spam clasification | 2 | 10 | 1586 | 120          | 250    | [Google drive link shared in WRENCH benchmark](https://drive.google.com/drive/folders/19p_BsGsF_JuriiQV4RB6qH3wcZXcvWGa) | 
+| SMS | spam clasification | 2 | 73 | 4571 | 500          | 500    | [Snorkel tutorial](https://github.com/snorkel-team/snorkel-tutorials/tree/master/spam) | 
 
 
 
