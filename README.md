@@ -10,7 +10,7 @@ The datasets can be downloaded via [this](https://drive.google.com/drive/folders
 ## Dataset Source
 | Name | Task | # class | # Prompted LFs | # train | # validation | # test | source
 |:--------|:---------|:------|:---|:------|:-------|:-------|:--------------------|
-| Spouse | relation classification | 2 | 9 | 22254 | 2811 | 2701 | [Github repo of Snorkel tutorial](https://github.com/snorkel-team/snorkel-tutorials/tree/master/spouse)| 
+| Spouse | relation classification | 2 | 11 | 22254 | 2811 | 2701 | [Github repo of Snorkel tutorial](https://github.com/snorkel-team/snorkel-tutorials/tree/master/spouse)| 
 | Youtube | spam clasification | 2 | 10 | 1586 | 120          | 250    | [Google drive link shared in WRENCH benchmark](https://drive.google.com/drive/folders/19p_BsGsF_JuriiQV4RB6qH3wcZXcvWGa)| 
 | SMS | spam clasification | 2 | 73 | 4571 | 500          | 500    | [Github repo of Snorkel tutorial](https://github.com/snorkel-team/snorkel-tutorials/tree/master/spam)| 
 
@@ -20,7 +20,9 @@ The datasets can be downloaded via [this](https://drive.google.com/drive/folders
 
 
 ## Instructions
-
+```
+cd RefiningModule/
+```
 Download the WRENCH benchmark as instructed in [WRENCH](https://github.com/JieyuZ2/wrench) and set up the WRENCH environment.
 
 
