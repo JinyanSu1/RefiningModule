@@ -1,9 +1,9 @@
-# RefiningModule
+# Instructions
 
-## Recreate Dataset containing weak labels from PromptedWS
+## Create environment
 ```
-conda create --name t0_env python=3.8 
-conda activate t0_env
+conda create --name WS_env python=3.8 
+conda activate WS_env
 pip install -r requirements.txt
 ```
 The datasets can be downloaded via [this](https://drive.google.com/drive/folders/1NbK7gq3pPn6HKy6CTF7pI3ivrHUT5kfR?usp=sharing).
