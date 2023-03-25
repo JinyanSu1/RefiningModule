@@ -1,12 +1,16 @@
 # Instructions
 
-## Create environment
+## Create environment and run experiments
 ```
 conda create --name WS_env python=3.8 
 conda activate WS_env
 pip install -r requirements.txt
+
+bash run.sh # run bash file
 ```
-The datasets can be downloaded via [this](https://drive.google.com/drive/folders/1NbK7gq3pPn6HKy6CTF7pI3ivrHUT5kfR?usp=sharing).
+
+
+
 ## Dataset Source
 | Name | Task | # class | # Prompted LFs | # train | # validation | # test | source
 |:--------|:---------|:------|:---|:------|:-------|:-------|:--------------------|
@@ -15,15 +19,3 @@ The datasets can be downloaded via [this](https://drive.google.com/drive/folders
 | SMS | spam clasification | 2 | 73 | 4571 | 500          | 500    | [Github repo of Snorkel tutorial](https://github.com/snorkel-team/snorkel-tutorials/tree/master/spam)| 
 
 
-
-
-
-
-## Instructions
-```
-cd RefiningModule/
-```
-Download the WRENCH benchmark as instructed in [WRENCH](https://github.com/JieyuZ2/wrench) and set up the WRENCH environment.
-
-
-run bash file using `bash run.sh`
