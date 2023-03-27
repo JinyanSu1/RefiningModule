@@ -18,3 +18,9 @@ bash run.sh # run bash file
 | Youtube | spam clasification | 2 | 10 | 1586 | 120          | 250    | [Google drive link shared in WRENCH benchmark](https://drive.google.com/drive/folders/19p_BsGsF_JuriiQV4RB6qH3wcZXcvWGa)| 
 | SMS | spam clasification | 2 | 73 | 4571 | 500          | 500    | [Github repo of Snorkel tutorial](https://github.com/snorkel-team/snorkel-tutorials/tree/master/spam)| 
 
+## Embed the LFs
+The embedding of the LFs are in the './data/' directory with the data, you can also get the embedding yourself with the following command:
+```
+cd get_LF_embedding/
+bash run_embedding.sh
+```
